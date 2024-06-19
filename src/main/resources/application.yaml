@@ -1,0 +1,14 @@
+#*******************************
+#** spring *********************
+#*******************************
+spring:
+  application:
+    name: commons
+  data:
+    mongodb:
+      uri: 'mongodb://mister_poka:poka@localhost:27017/person?authSource=admin'
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    deserialization:
+      fail-on-ignored-properties: 'true'
+      fail-on-unknown-properties: 'true'
